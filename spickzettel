@@ -1,0 +1,3 @@
+flatpak run xyz.splashmapper.Splash
+
+gst-launch-1.0 --gst-plugin-path=/usr/lib/gstreamer-1.0/ shmdatasrc socket-path=/tmp/felix ! videoconvert ! autovideosink

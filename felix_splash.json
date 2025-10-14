@@ -1,0 +1,1799 @@
+{
+	"description" : "splashConfiguration",
+	"scenes" : 
+	{
+		"GPU" : 
+		{
+			"links" : 
+			[
+				[
+					"Object",
+					"gui"
+				],
+				[
+					"object_1",
+					"Camera"
+				],
+				[
+					"Object",
+					"Camera"
+				],
+				[
+					"Object_ossia_filter",
+					"Object"
+				],
+				[
+					"ossia",
+					"Object"
+				],
+				[
+					"mesh_shmdata_001",
+					"Object"
+				],
+				[
+					"Image",
+					"Object_Image_filter"
+				],
+				[
+					"Top",
+					"Window"
+				],
+				[
+					"Bottom",
+					"Window"
+				],
+				[
+					"Window_Top_warp",
+					"Window"
+				],
+				[
+					"Window_Bottom_warp",
+					"Window"
+				],
+				[
+					"Camera",
+					"Window_Camera_warp"
+				],
+				[
+					"mesh_shmdata_2",
+					"object_1"
+				],
+				[
+					"object_1_image_shmdata_1_filter",
+					"object_1"
+				],
+				[
+					"image_shmdata_1",
+					"object_1"
+				],
+				[
+					"image_shmdata_1",
+					"object_1_image_shmdata_1_filter"
+				],
+				[
+					"Object",
+					"Bottom"
+				],
+				[
+					"Object",
+					"Top"
+				],
+				[
+					"ossia",
+					"Object_ossia_filter"
+				],
+				[
+					"Top",
+					"Window_Top_warp"
+				],
+				[
+					"Bottom",
+					"Window_Bottom_warp"
+				]
+			],
+			"objects" : 
+			{
+				"Bottom" : 
+				{
+					"16bits" : 
+					[
+						true
+					],
+					"activateColorLUT" : 
+					[
+						0
+					],
+					"alias" : 
+					[
+						"Bottom"
+					],
+					"blendPrecision" : 
+					[
+						0.10000000149011612
+					],
+					"blendWidth" : 
+					[
+						0.05000000074505806
+					],
+					"brightness" : 
+					[
+						1.0
+					],
+					"buffer" : null,
+					"colorLUTSize" : 
+					[
+						0
+					],
+					"colorMixMatrix" : 
+					[
+						[
+							-2.3865699965055131e+24,
+							-6.7197525393117827e-29,
+							4.4317465232736665e-41,
+							0.0,
+							0.0,
+							-6.7191843899781884e-29,
+							4.4317465232736665e-41,
+							-6.7237392142966643e-29,
+							4.4317465232736665e-41
+						]
+					],
+					"colorSamples" : 
+					[
+						0
+					],
+					"colorTemperature" : 
+					[
+						6500.0
+					],
+					"contrast" : 
+					[
+						1.0
+					],
+					"eye" : 
+					[
+						0.0,
+						-1.0900000333786011,
+						0.15000042319297791
+					],
+					"far" : 
+					[
+						100.0
+					],
+					"fov" : 
+					[
+						28.841547012329102
+					],
+					"getReprojectionError" : 
+					[
+						0.0
+					],
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"hide" : 
+					[
+						false
+					],
+					"multisampling" : 
+					[
+						0
+					],
+					"near" : 
+					[
+						0.10000000149011612
+					],
+					"principalPoint" : 
+					[
+						0.5,
+						0.5
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"saturation" : 
+					[
+						1.0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"size" : 
+					[
+						1920,
+						1080
+					],
+					"target" : 
+					[
+						0.0,
+						-0.089999914169311523,
+						0.15000055730342865
+					],
+					"timestamp" : 
+					[
+						-1872533044
+					],
+					"type" : "camera",
+					"up" : 
+					[
+						0.0,
+						-1.3435885648505064e-07,
+						1.0000001192092896
+					],
+					"weightedCalibrationPoints" : 
+					[
+						true
+					]
+				},
+				"Camera" : 
+				{
+					"16bits" : 
+					[
+						true
+					],
+					"activateColorLUT" : 
+					[
+						0
+					],
+					"alias" : 
+					[
+						"Camera"
+					],
+					"blendPrecision" : 
+					[
+						0.10000000149011612
+					],
+					"blendWidth" : 
+					[
+						0.05000000074505806
+					],
+					"brightness" : 
+					[
+						1.0
+					],
+					"buffer" : null,
+					"colorLUTSize" : 
+					[
+						0
+					],
+					"colorMixMatrix" : 
+					[
+						[
+							0.0,
+							4.2038953929744512e-45,
+							0.0,
+							-1.8000959733771791e-19,
+							4.2633104478618235e-41,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					],
+					"colorSamples" : 
+					[
+						0
+					],
+					"colorTemperature" : 
+					[
+						6500.0
+					],
+					"contrast" : 
+					[
+						1.0
+					],
+					"eye" : 
+					[
+						0.0,
+						-10.0,
+						0.0
+					],
+					"far" : 
+					[
+						100.0
+					],
+					"fov" : 
+					[
+						28.841547012329102
+					],
+					"getReprojectionError" : 
+					[
+						0.0
+					],
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"hide" : 
+					[
+						false
+					],
+					"multisampling" : 
+					[
+						0
+					],
+					"near" : 
+					[
+						0.10000000149011612
+					],
+					"principalPoint" : 
+					[
+						0.5,
+						0.5
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"saturation" : 
+					[
+						1.0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"size" : 
+					[
+						5760,
+						1080
+					],
+					"target" : 
+					[
+						0.0,
+						-9.0,
+						1.3435885648505064e-07
+					],
+					"timestamp" : 
+					[
+						-1933097209
+					],
+					"type" : "camera",
+					"up" : 
+					[
+						0.0,
+						-1.3435885648505064e-07,
+						1.0000001192092896
+					],
+					"weightedCalibrationPoints" : 
+					[
+						true
+					]
+				},
+				"Image" : 
+				{
+					"alias" : 
+					[
+						"Image"
+					],
+					"file" : 
+					[
+						"/tmp/score_converted_shmdata"
+					],
+					"flip" : 
+					[
+						true
+					],
+					"flop" : 
+					[
+						false
+					],
+					"mediaInfo" : 
+					[
+						1920,
+						1080,
+						32,
+						4,
+						"RGBA",
+						true
+					],
+					"pattern" : 
+					[
+						false
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"reload" : 
+					[
+						false
+					],
+					"savable" : 
+					[
+						true
+					],
+					"srgb" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						-1933739121
+					],
+					"type" : "image"
+				},
+				"Mesh" : 
+				{
+					"alias" : 
+					[
+						"Mesh"
+					],
+					"file" : 
+					[
+						"/tmp/blender_shmdata_mesh_Plane"
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"reload" : 
+					[
+						false
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						-1932466859
+					],
+					"type" : "mesh"
+				},
+				"Object" : 
+				{
+					"alias" : 
+					[
+						"Object"
+					],
+					"color" : 
+					[
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"culling" : 
+					[
+						"double sided"
+					],
+					"fill" : 
+					[
+						"texture"
+					],
+					"normalExponent" : 
+					[
+						0.0
+					],
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					],
+					"timestamp" : 
+					[
+						-1872533044
+					],
+					"type" : "object"
+				},
+				"Object_Image_filter" : 
+				{
+					"alias" : 
+					[
+						"Object_Image_filter"
+					],
+					"brightness" : 
+					[
+						1.0
+					],
+					"buffer" : null,
+					"colorTemperature" : 
+					[
+						6600.0
+					],
+					"contrast" : 
+					[
+						1.0
+					],
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"invertChannels" : 
+					[
+						false
+					],
+					"keepRatio" : 
+					[
+						false
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"saturation" : 
+					[
+						1.0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0
+					],
+					"size" : 
+					[
+						128,
+						128
+					],
+					"sizeOverride" : 
+					[
+						-1,
+						-1
+					],
+					"timestamp" : 
+					[
+						-1933739121
+					],
+					"type" : "filter"
+				},
+				"Object_ossia_filter" : 
+				{
+					"alias" : 
+					[
+						"Object_ossia_filter"
+					],
+					"brightness" : 
+					[
+						1.0
+					],
+					"buffer" : null,
+					"colorTemperature" : 
+					[
+						6600.0
+					],
+					"contrast" : 
+					[
+						1.0
+					],
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"invertChannels" : 
+					[
+						false
+					],
+					"keepRatio" : 
+					[
+						false
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"saturation" : 
+					[
+						1.0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0
+					],
+					"size" : 
+					[
+						128,
+						128
+					],
+					"sizeOverride" : 
+					[
+						-1,
+						-1
+					],
+					"timestamp" : 
+					[
+						-1872533044
+					],
+					"type" : "filter"
+				},
+				"Top" : 
+				{
+					"16bits" : 
+					[
+						true
+					],
+					"activateColorLUT" : 
+					[
+						0
+					],
+					"alias" : 
+					[
+						"Top"
+					],
+					"blendPrecision" : 
+					[
+						0.10000000149011612
+					],
+					"blendWidth" : 
+					[
+						0.05000000074505806
+					],
+					"brightness" : 
+					[
+						1.0
+					],
+					"buffer" : null,
+					"colorLUTSize" : 
+					[
+						0
+					],
+					"colorMixMatrix" : 
+					[
+						[
+							4.4317465232736665e-41,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							7.5824054684283629e+31,
+							2.1594620536191655e-10,
+							0.0,
+							0.0
+						]
+					],
+					"colorSamples" : 
+					[
+						0
+					],
+					"colorTemperature" : 
+					[
+						6500.0
+					],
+					"contrast" : 
+					[
+						1.0
+					],
+					"eye" : 
+					[
+						0.0,
+						-1.0900000333786011,
+						0.72000002861022949
+					],
+					"far" : 
+					[
+						100.0
+					],
+					"fov" : 
+					[
+						28.841547012329102
+					],
+					"getReprojectionError" : 
+					[
+						0.0
+					],
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"hide" : 
+					[
+						false
+					],
+					"multisampling" : 
+					[
+						0
+					],
+					"near" : 
+					[
+						0.10000000149011612
+					],
+					"principalPoint" : 
+					[
+						0.5,
+						0.5
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"saturation" : 
+					[
+						1.0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"size" : 
+					[
+						1920,
+						1080
+					],
+					"target" : 
+					[
+						0.0,
+						-0.089999914169311523,
+						0.72000014781951904
+					],
+					"timestamp" : 
+					[
+						-1872533044
+					],
+					"type" : "camera",
+					"up" : 
+					[
+						0.0,
+						-1.3435885648505064e-07,
+						1.0000001192092896
+					],
+					"weightedCalibrationPoints" : 
+					[
+						true
+					]
+				},
+				"Window" : 
+				{
+					"alias" : 
+					[
+						"Window"
+					],
+					"decorated" : 
+					[
+						false
+					],
+					"fullscreen" : 
+					[
+						"windowed"
+					],
+					"layoutOrder" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"layoutWidth" : 
+					[
+						4
+					],
+					"position" : 
+					[
+						2560,
+						0
+					],
+					"presentationDelay" : 
+					[
+						-111039120
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"size" : 
+					[
+						3840,
+						1080
+					],
+					"textureList" : 
+					[
+						"Window_Top_warp",
+						"Window_Bottom_warp"
+					],
+					"timestamp" : 
+					[
+						0
+					],
+					"type" : "window"
+				},
+				"Window_Bottom_warp" : 
+				{
+					"alias" : 
+					[
+						"Window_Bottom_warp"
+					],
+					"buffer" : null,
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"patchControl" : 
+					[
+						4,
+						4,
+						[
+							-1.0,
+							-1.0
+						],
+						[
+							-0.33333331346511841,
+							-1.0
+						],
+						[
+							0.33333337306976318,
+							-1.0
+						],
+						[
+							1.0,
+							-1.0
+						],
+						[
+							-1.0,
+							-0.33333331346511841
+						],
+						[
+							-0.33333331346511841,
+							-0.33333331346511841
+						],
+						[
+							0.33333337306976318,
+							-0.33333331346511841
+						],
+						[
+							1.0,
+							-0.33333331346511841
+						],
+						[
+							-1.0,
+							0.33333337306976318
+						],
+						[
+							-0.33333331346511841,
+							0.33333337306976318
+						],
+						[
+							0.33333337306976318,
+							0.33333337306976318
+						],
+						[
+							1.0,
+							0.33333337306976318
+						],
+						[
+							-1.0,
+							1.0
+						],
+						[
+							-0.33333331346511841,
+							1.0
+						],
+						[
+							0.33333337306976318,
+							1.0
+						],
+						[
+							1.0,
+							1.0
+						]
+					],
+					"patchResolution" : 
+					[
+						64
+					],
+					"patchSize" : 
+					[
+						4,
+						4
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"size" : 
+					[
+						512,
+						512
+					],
+					"timestamp" : 
+					[
+						-1
+					],
+					"type" : "warp"
+				},
+				"Window_Camera_warp" : 
+				{
+					"alias" : 
+					[
+						"Window_Camera_warp"
+					],
+					"buffer" : null,
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"patchControl" : 
+					[
+						4,
+						4,
+						[
+							-1.0,
+							-1.0
+						],
+						[
+							-0.33333331346511841,
+							-1.0
+						],
+						[
+							0.33333337306976318,
+							-1.0
+						],
+						[
+							1.0,
+							-1.0
+						],
+						[
+							-1.0,
+							-0.33333331346511841
+						],
+						[
+							-0.33333331346511841,
+							-0.33333331346511841
+						],
+						[
+							0.33333337306976318,
+							-0.33333331346511841
+						],
+						[
+							1.0,
+							-0.33333331346511841
+						],
+						[
+							-1.0,
+							0.33333337306976318
+						],
+						[
+							-0.33333331346511841,
+							0.33333337306976318
+						],
+						[
+							0.33333337306976318,
+							0.33333337306976318
+						],
+						[
+							1.0,
+							0.33333337306976318
+						],
+						[
+							-1.0,
+							1.0
+						],
+						[
+							-0.33333331346511841,
+							1.0
+						],
+						[
+							0.33333337306976318,
+							1.0
+						],
+						[
+							1.0,
+							1.0
+						]
+					],
+					"patchResolution" : 
+					[
+						64
+					],
+					"patchSize" : 
+					[
+						4,
+						4
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"size" : 
+					[
+						512,
+						512
+					],
+					"timestamp" : 
+					[
+						-1
+					],
+					"type" : "warp"
+				},
+				"Window_Top_warp" : 
+				{
+					"alias" : 
+					[
+						"Window_Top_warp"
+					],
+					"buffer" : null,
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"patchControl" : 
+					[
+						4,
+						4,
+						[
+							-1.0,
+							-1.0
+						],
+						[
+							-0.33333331346511841,
+							-1.0
+						],
+						[
+							0.33333337306976318,
+							-1.0
+						],
+						[
+							1.0,
+							-1.0
+						],
+						[
+							-1.0,
+							-0.33333331346511841
+						],
+						[
+							-0.33333331346511841,
+							-0.33333331346511841
+						],
+						[
+							0.33333337306976318,
+							-0.33333331346511841
+						],
+						[
+							1.0,
+							-0.33333331346511841
+						],
+						[
+							-1.0,
+							0.33333337306976318
+						],
+						[
+							-0.33333331346511841,
+							0.33333337306976318
+						],
+						[
+							0.33333337306976318,
+							0.33333337306976318
+						],
+						[
+							1.0,
+							0.33333337306976318
+						],
+						[
+							-1.0,
+							1.0
+						],
+						[
+							-0.33333331346511841,
+							1.0
+						],
+						[
+							0.33333337306976318,
+							1.0
+						],
+						[
+							1.0,
+							1.0
+						]
+					],
+					"patchResolution" : 
+					[
+						64
+					],
+					"patchSize" : 
+					[
+						4,
+						4
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"size" : 
+					[
+						512,
+						512
+					],
+					"timestamp" : 
+					[
+						-1
+					],
+					"type" : "warp"
+				},
+				"blender" : 
+				{
+					"alias" : 
+					[
+						"blender"
+					],
+					"depthAwareBlending" : 
+					[
+						false
+					],
+					"mode" : 
+					[
+						"none"
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						0
+					],
+					"type" : "blender"
+				},
+				"dragndrop" : 
+				{
+					"alias" : 
+					[
+						"dragndrop"
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						0
+					],
+					"type" : "dragndrop",
+					"updateRate" : 
+					[
+						10
+					]
+				},
+				"gui" : 
+				{
+					"alias" : 
+					[
+						"gui"
+					],
+					"fullscreen" : 
+					[
+						true
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						0
+					],
+					"toggleDocking" : 
+					[
+						false
+					],
+					"type" : "gui"
+				},
+				"image_4" : 
+				{
+					"alias" : 
+					[
+						"image_4"
+					],
+					"file" : 
+					[
+						"/tmp/score_converted_shmdata_wireframe"
+					],
+					"flip" : 
+					[
+						false
+					],
+					"flop" : 
+					[
+						false
+					],
+					"mediaInfo" : 
+					[
+						128,
+						128,
+						32,
+						4,
+						"RGBA",
+						true
+					],
+					"pattern" : 
+					[
+						false
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"reload" : 
+					[
+						false
+					],
+					"savable" : 
+					[
+						true
+					],
+					"srgb" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						-1933147677
+					],
+					"type" : "image"
+				},
+				"image_shmdata_1" : 
+				{
+					"alias" : 
+					[
+						"image_shmdata_1"
+					],
+					"file" : 
+					[
+						"/tmp/score_converted_shmdata_wireframe"
+					],
+					"flip" : 
+					[
+						false
+					],
+					"flop" : 
+					[
+						false
+					],
+					"mediaInfo" : 
+					[
+						1280,
+						720,
+						32,
+						4,
+						"RGBA",
+						true
+					],
+					"pattern" : 
+					[
+						false
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"reload" : 
+					[
+						false
+					],
+					"savable" : 
+					[
+						true
+					],
+					"srgb" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						-1933097209
+					],
+					"type" : "image"
+				},
+				"image_shmdata_3" : 
+				{
+					"alias" : 
+					[
+						"image_shmdata_3"
+					],
+					"file" : 
+					[
+						"/tmp/score_converted_shmdata_wire"
+					],
+					"flip" : 
+					[
+						true
+					],
+					"flop" : 
+					[
+						false
+					],
+					"mediaInfo" : 
+					[
+						1280,
+						720,
+						32,
+						4,
+						"RGBA",
+						true
+					],
+					"pattern" : 
+					[
+						false
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"reload" : 
+					[
+						false
+					],
+					"savable" : 
+					[
+						true
+					],
+					"srgb" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						-1933046432
+					],
+					"type" : "image"
+				},
+				"keyboard" : 
+				{
+					"alias" : 
+					[
+						"keyboard"
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						0
+					],
+					"type" : "keyboard",
+					"updateRate" : 
+					[
+						100
+					]
+				},
+				"mesh_shmdata_001" : 
+				{
+					"alias" : 
+					[
+						"mesh_shmdata_001"
+					],
+					"file" : 
+					[
+						"/tmp/blender_shmdata_mesh_Plane"
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"reload" : 
+					[
+						false
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						-1834258612
+					],
+					"type" : "mesh_shmdata"
+				},
+				"mesh_shmdata_2" : 
+				{
+					"alias" : 
+					[
+						"mesh_shmdata_2"
+					],
+					"file" : 
+					[
+						"/tmp/blender_shmdata_mesh_wireframe"
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"reload" : 
+					[
+						false
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						-1932466748
+					],
+					"type" : "mesh"
+				},
+				"mouse" : 
+				{
+					"alias" : 
+					[
+						"mouse"
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						0
+					],
+					"type" : "mouse",
+					"updateRate" : 
+					[
+						100
+					]
+				},
+				"object_1" : 
+				{
+					"alias" : 
+					[
+						"object_1"
+					],
+					"color" : 
+					[
+						1.0,
+						1.0,
+						1.0,
+						1.0
+					],
+					"culling" : 
+					[
+						"double sided"
+					],
+					"fill" : 
+					[
+						"texture"
+					],
+					"normalExponent" : 
+					[
+						0.0
+					],
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					],
+					"timestamp" : 
+					[
+						-1933097209
+					],
+					"type" : "object"
+				},
+				"object_1_image_shmdata_1_filter" : 
+				{
+					"alias" : 
+					[
+						"object_1_image_shmdata_1_filter"
+					],
+					"brightness" : 
+					[
+						1.0
+					],
+					"buffer" : null,
+					"colorTemperature" : 
+					[
+						6600.0
+					],
+					"contrast" : 
+					[
+						1.0
+					],
+					"grabMipmapLevel" : 
+					[
+						-1
+					],
+					"invertChannels" : 
+					[
+						false
+					],
+					"keepRatio" : 
+					[
+						false
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"saturation" : 
+					[
+						1.0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0
+					],
+					"size" : 
+					[
+						128,
+						128
+					],
+					"sizeOverride" : 
+					[
+						-1,
+						-1
+					],
+					"timestamp" : 
+					[
+						-1933097209
+					],
+					"type" : "filter"
+				},
+				"osc" : 
+				{
+					"alias" : 
+					[
+						"osc"
+					],
+					"port" : 
+					[
+						9090
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						0
+					],
+					"type" : "osc"
+				},
+				"ossia" : 
+				{
+					"alias" : 
+					[
+						"ossia"
+					],
+					"file" : 
+					[
+						"/tmp/felix"
+					],
+					"flip" : 
+					[
+						false
+					],
+					"flop" : 
+					[
+						false
+					],
+					"mediaInfo" : 
+					[
+						128,
+						128,
+						32,
+						4,
+						"RGBA",
+						true
+					],
+					"pattern" : 
+					[
+						false
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"reload" : 
+					[
+						false
+					],
+					"savable" : 
+					[
+						true
+					],
+					"srgb" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						-1872533044
+					],
+					"type" : "image_shmdata"
+				},
+				"texcoordGenerator" : 
+				{
+					"activeMesh" : 
+					[
+						"mesh_shmdata_001"
+					],
+					"alias" : 
+					[
+						"texcoordGenerator"
+					],
+					"priorityShift" : 
+					[
+						0
+					],
+					"projectionCenter" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"projectionFOV" : 
+					[
+						360.0,
+						180.0
+					],
+					"projectionOrientation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"projectionType" : 
+					[
+						"Default"
+					],
+					"savable" : 
+					[
+						true
+					],
+					"timestamp" : 
+					[
+						0
+					],
+					"type" : "texcoordGenerator",
+					"uvCoordsParams" : 
+					[
+						[
+							"mesh_shmdata_001",
+							0,
+							[
+								0.0,
+								0.0,
+								0.0
+							],
+							[
+								0.0,
+								0.0,
+								0.0
+							],
+							[
+								360.0,
+								180.0
+							]
+						]
+					]
+				}
+			},
+			"swapInterval" : 
+			[
+				1
+			]
+		}
+	},
+	"version" : "0.11.10",
+	"world" : 
+	{
+		"clock" : 
+		[
+			-111039708
+		],
+		"clockDeviceName" : 
+		[
+			""
+		],
+		"configurationPath" : 
+		[
+			"/home/lichtmaster/Documents/felix_in_media/"
+		],
+		"forceRealtime" : 
+		[
+			false
+		],
+		"framerate" : 
+		[
+			30
+		],
+		"looseClock" : 
+		[
+			false
+		],
+		"mediaPath" : 
+		[
+			"/home/lichtmaster"
+		],
+		"wireframe" : 
+		[
+			false
+		]
+	}
+}
