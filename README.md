@@ -1,26 +1,17 @@
 # Steps
 
-1. open ossia Score Session felix_in_media_final_seperate
+1. open ossia Score Session felix_in_media_final_kufa_new_mapping_helper.score
 2. click play in ossia Score 
-3. open qlc+ felix_in_media_kufa.qxw
+3. if needed open qlc+ felix_in_media_kufa.qxw
 4. have fun 
 
-# artnet channel
+* This Pc IP 192.168.178.8
 
-## artnet univerum 3
-### video fader 
-1 -> video 1  </br>
-.  </br>
-.  </br>
-.  </br>
-12 -> video 12   </br>
+## wlan mapping
+SSID: nonoise
+PW: ewigkeit
 
-
-
-### video starter
-
-
-21 -> video 1  </br>
-.  </br>
-.  </br>
-32 -> video 12  </br>   
+## OSC
+Port 9995 -> http mapping interface
+Port 9997 -> osc server ossia score mapping  
+port 9998 -> osc server ossia score midimonster  
